@@ -1,0 +1,19 @@
+{
+  "name": "node-github-actions-sample",
+  "version": "1.0.0",
+  "description": "A simple Node.js app with GitHub Actions CI",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Running tests...\" && exit 0",
+    "lint": "eslint app.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
